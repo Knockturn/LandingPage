@@ -122,7 +122,7 @@ section.hero .down-arrow path {
 
 @media only screen and (min-width: 680px) {
   body {
-    margin: 1.5 5em;
+    margin: 1.5em 5em;
     font-family: "Poppins", sans-serif;
   }
 }
@@ -205,7 +205,7 @@ section.hero .down-arrow path {
 }
 @media only screen and (min-width: 1200px) {
   .wrapper {
-    width: 1200 px;
+    width: 1200px;
     margin: 0 auto;
   }
   .feature {
