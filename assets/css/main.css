@@ -174,7 +174,6 @@ section.hero .down-arrow path {
   }
   section.hero svg.down-arrow {
     stroke: black;
-    position: unset;
   }
   section.hero svg.down-arrow path {
     fill: black;
