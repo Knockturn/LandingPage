@@ -94,7 +94,7 @@ section.hero {
 section.hero .down-arrow {
   stroke: white;
   position: absolute;
-  bottom: 2em;
+  bottom: 5em;
   width: 3em;
   animation: moveArrow 1s alternate-reverse infinite;
 }
@@ -167,7 +167,7 @@ section.hero .down-arrow path {
     color: black;
     height: auto;
     width: 40%;
-    margin-bottom: 8em;
+    margin-bottom: 12em;
   }
   section.hero .subhead {
     margin-bottom: 3em;
