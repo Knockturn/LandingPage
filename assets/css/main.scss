@@ -28,6 +28,7 @@ a {
   color: white;
   font-weight: bold;
   span {
+    -webkit-text-stroke: 1px black;
     color: red;
   }
 }
@@ -90,6 +91,7 @@ h1 {
 }
 
 section.hero {
+  -webkit-text-stroke: 1px black;
   color: white;
   height: 90vh;
   animation: moveDown 1s ease-in-out forwards;
@@ -197,6 +199,7 @@ section.hero {
   }
 
   section.hero {
+    -webkit-text-stroke: 0px;
     color: black;
     height: auto;
     width: 40%;

@@ -28,6 +28,7 @@ a {
   font-weight: bold;
 }
 .logo span {
+  -webkit-text-stroke: 1px black;
   color: red;
 }
 
@@ -85,6 +86,7 @@ h1 {
 }
 
 section.hero {
+  -webkit-text-stroke: 1px black;
   color: white;
   height: 90vh;
   -webkit-animation: moveDown 1s ease-in-out forwards;
@@ -182,6 +184,7 @@ section.hero .down-arrow path {
     color: black;
   }
   section.hero {
+    -webkit-text-stroke: 0px;
     color: black;
     height: auto;
     width: 40%;
