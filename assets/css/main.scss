@@ -126,6 +126,24 @@ section.hero {
   transform: translateX(0%);
 }
 
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
 // Below is styling for desktop
 @media only screen and (min-width: 680px) {
   body {
