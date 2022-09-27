@@ -86,7 +86,6 @@ h1 {
 }
 
 section.hero {
-  -webkit-text-stroke: 1px black;
   color: white;
   height: 90vh;
   -webkit-animation: moveDown 1s ease-in-out forwards;

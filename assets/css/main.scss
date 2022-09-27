@@ -73,7 +73,6 @@ header {
 
   svg {
     fill: white;
-    // background-color: black;
     width: 2.3em;
     margin-top: -0.6em;
     cursor: pointer;
@@ -91,7 +90,7 @@ h1 {
 }
 
 section.hero {
-  -webkit-text-stroke: 1px black;
+  //TODO: Optimize visability
   color: white;
   height: 90vh;
   animation: moveDown 1s ease-in-out forwards;
